@@ -15,7 +15,7 @@ setup(
     ],
     entry_points={
     "console_scripts": [
-        "digital_footprint = mypackage.scanner:main"
+        "digital-footprint = mypackage.scanner:main"
     ]
 },
     classifiers=[
