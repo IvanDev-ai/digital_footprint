@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="digital_footprint",
-    version="0.1.0",
+    version="0.1.1",
     description="Digital Footprint Scanner: Free tool to extract useful information from an email.",
     author="ivanMartin",
     author_email="imartin.desarrollo@gmail.com",
