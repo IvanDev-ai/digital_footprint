@@ -1,8 +1,0 @@
-Package: digital-footprint
-Version: 1.0
-Architecture: all
-Maintainer: TuNombre <tu@email.com>
-Depends: python3, python3-requests, python3-bs4, python3-whois, python3-dnspython
-Section: admin
-Priority: optional
-Description: Digital Footprint Scanner
