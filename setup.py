@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 setup(
     name="digital_footprint",
     version="0.1.0",
-    description="Digital Footprint Scanner: Herramienta gratuita para extraer información útil de un correo electrónico.",
-    author="Tu Nombre",
-    author_email="tuemail@example.com",
+    description="Digital Footprint Scanner: Free tool to extract useful information from an email.",
+    author="Ivan Martin",
+    author_email="imartin.desarrollo@gmail.com",
     packages=find_packages(),
     install_requires=[
         "requests",

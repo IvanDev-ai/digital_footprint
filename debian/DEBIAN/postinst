@@ -1,0 +1,6 @@
+#!/bin/bash
+REPO_FILE="/etc/apt/sources.list.d/digital-footprint.list"
+if [ ! -f "$REPO_FILE" ]; then
+    echo "deb [trusted=yes] https://TU-USUARIO.github.io/digital-footprint-apt stable main" | tee "$REPO_FILE"
+fi
+apt update
