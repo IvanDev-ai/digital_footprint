@@ -29,6 +29,7 @@ source venv/bin/activate
 # On Windows, use:
 # venv\Scripts\activate
 ```
+
 ## 2. Install Digital Footprint Scanner
 
 Install the package using pip. **Note:** The tool works perfectly with version **1.6.9**. If you already have another version installed, uninstall it and then install version 1.6.9.
@@ -47,17 +48,19 @@ pip install digital-footprint==1.6.9
 
 ## 3. Install Dependencies
 The package requires the following dependencies:
-requests
-beautifulsoup4
-python-whois
-dnspython
-waybackpy
-colorama
-googlesearch-python
+- `requests`
+- `beautifulsoup4`
+- `python-whois`
+- `dnspython`
+- `waybackpy`
+- `colorama`
+- `googlesearch-python`
+
 If these are not automatically installed with the package, install them manually:
 ```bash
 pip install requests beautifulsoup4 python-whois dnspython waybackpy colorama googlesearch-python
 ```
+
 
 ## 4. Usage
 Once installed, you can run the tool from the command line using one of the following commands:
