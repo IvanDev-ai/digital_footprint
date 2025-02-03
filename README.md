@@ -1,6 +1,9 @@
 # Digital Footprint Scanner
-![Descripción de la imagen](Example/img1.png)
 Digital Footprint Scanner is a free tool that extracts useful information from an email address or username. It gathers data on domain intelligence, email intelligence, web presence analysis, and advanced dorking results. The tool provides detailed output that includes domain registration details, DNS records, open ports, public documents, social media profiles, and more.
+<p align="center">
+  <img src="Example/img1.png" alt="ToolDesc1" width="400">
+</p>
+
 
 ## Features
 
@@ -67,9 +70,6 @@ To scan by username:
 ```bash
 digital-footprint username
 ```
-## Example Output
-![Descripción de la imagen](Example/img1.png)
-![Descripción de la imagen](Example/img2.png)
 ## Troubleshooting
 ### Version Issues
 If you encounter any issues with the tool not working as expected, verify that you are using version 1.6.9. 
@@ -81,3 +81,9 @@ pip show digital-footprint
 Ensure all required dependencies are installed. You can install any missing packages with pip.
 
 Happy scanning!
+
+## Example Output
+<p align="center">
+  <img src="Example/img1.png" alt="ToolDesc1" width="600">
+  <img src="Example/img2.png" alt="ToolDesc2" width="600">
+</p>
